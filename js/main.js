@@ -1,6 +1,6 @@
 ;(function(){
   var $t = $('.tag');
-  var tags = ['ideator', 'illustrator', 'designer'];
+  var tags = ['photographer', 'snowboarder', 'gamer'];
 
   // mobile utility method
   var page = {
