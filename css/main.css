@@ -231,6 +231,7 @@ nav.timeline .active {
 }
 
 section[role="work"] {
+  background: #fff;
   padding: 6.25% 12.5%;
   text-align: center;
   display: table;
