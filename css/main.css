@@ -572,4 +572,13 @@ a.det-link {
     top: 0;
     mix-blend-mode: normal;
   }
+
+  iframe {
+    display: block;       /* iframes are inline by default */
+    background: #fff;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+    margin: 0 auto;
+  }
 }
