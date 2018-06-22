@@ -157,6 +157,10 @@ a.down:hover {
   opacity: 1;
 }
 
+a.hiddenTab {
+  visibility:hidden; display:none;
+}
+
 nav {
   mix-blend-mode: difference;
   float: right;
