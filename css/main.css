@@ -122,6 +122,7 @@ div.masthead {
 }
 
 .mast {
+  font-weight: bold;
   display: block;
   float: left;
   clear: both;
