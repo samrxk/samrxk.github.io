@@ -12,55 +12,76 @@
   <body>
     <div class="overlay-wrapper">
       <header class="site-header">
-        <a href="/" class="icon">
+        <a href="#1" class="icon">
           &nbsp;
         </a>
         <nav id="nav" class="active">
           <ul>
             <!-- <li><a href="#about">about</a></li> -->
-			<li><a href="#work">shots</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><a href="#2">shots</a></li>
+            <li><a href="#3">contact</a></li>
           </ul>
         </nav>
       </header>
 	  
 	<div id="wrapper">
-	  <div class="section"> 
+	  <div class="section" data-anchor="#1"> 
       <section role="overview">
         <div class="masthead">
           <h2 class="mast">samrx.</h2>
           <h2 class="tag" data-current="0">welcome</h2>
         </div>
-        <a class="down" href="#work"><img src="img/down.svg" /></a>
+        <a class="down" href="#2"><img src="img/down.svg"></a>
       </section>
 	  </div>
 	  
-	  <div class="section">
-      <section role="work">
-        <div class="vert">
-			<iframe src="http://lightwidget.com/widgets/af25c0ccccbd573389a46dcb89688e16.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-        </div>
-      </section>
+	  <div class="section" data-anchor="#2">
+      <div class="slide">
+        <section role="work">
+          <div class="vert">
+            <iframe src="http://lightwidget.com/widgets/af25c0ccccbd573389a46dcb89688e16.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+          </div>
+        </section>
+      </div>
+
+      <div class="slide">
+        <section role="work">
+          <div class="vert">
+            <iframe src="http://lightwidget.com/widgets/af25c0ccccbd573389a46dcb89688e16.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+          </div>
+        </section>
+      </div>
+
+      <div class="slide">
+        <section role="work">
+          <div class="vert">
+            <iframe src="http://lightwidget.com/widgets/af25c0ccccbd573389a46dcb89688e16.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+          </div>
+        </section>
+      </div>
 	  </div>
 
-	  <div class="section">
+	  <div class="section" data-anchor="#3">
       <section role="contact">
         <div class="vert">
           <p>Chasing snow flakes & city scapes..<br/><br/>
-          <p><3<br/><a class="email" href="mailto:hi@alvska.co">hello@samrx.co</a></p>
+          <p><3<br/><a class="email" href="mailto:hello@samrx.co">hello@samrx.co</a></p>
         </div>
       </section>
 	  </div>
 	</div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 	<script src="js/jquery.fullPage.js"></script>
 	<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
 	<script>
 	$(document).ready(function(){
-		$('#wrapper').fullpage();
+		$('#wrapper').fullpage({
+      loopBottom: true
+    });
 	});
 	</script>
+
   </body>
 </html>
