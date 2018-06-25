@@ -573,7 +573,7 @@ a.det-link {
     mix-blend-mode: normal;
   }
 
-  iframe {
+  .iframe {
     display: block;       /* iframes are inline by default */
     background: #fff;
     border: none;         /* Reset default border */
