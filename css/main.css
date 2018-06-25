@@ -579,7 +579,7 @@ a.det-link {
     border: none;         /* Reset default border */
     height: 100vh;        /* Viewport-relative units */
     max-width: 100%;
-    padding: 10px 5vh;
-    margin: 0;
+    padding: 0;
+    margin-bottom: 10vh;
   }
 }
