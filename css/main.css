@@ -577,7 +577,8 @@ a.det-link {
     display: block;       /* iframes are inline by default */
     background: #fff;
     border: none;         /* Reset default border */
-    height: 100vh;        /* Viewport-relative units */
+    height: 50vh;        /* Viewport-relative units */
+    max-width: 100%;
     padding: 0;
     margin: 0;
   }
