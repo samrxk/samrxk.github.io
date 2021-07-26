@@ -184,6 +184,7 @@ nav ul li {
   display: inline-block;
   float: left;
   margin-left: 20px;
+  margin-top: 12px;
 }
 
 nav ul li a:hover {
