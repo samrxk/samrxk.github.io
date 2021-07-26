@@ -128,7 +128,7 @@ div.masthead {
   clear: both;
   width: 50%;
   margin: 0;
-  margin-left: calc(50% - 100px);
+  margin-left: calc(50% - 125px);
   padding: 0;
   text-align: justify;
 }
@@ -139,7 +139,7 @@ div.masthead {
   clear: both;
   width: 50%;
   margin: 0;
-  margin-left: calc(50% - 100px);
+  margin-left: calc(50% - 125px);
   padding: 0;
 }
 
