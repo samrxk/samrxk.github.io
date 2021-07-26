@@ -30,7 +30,7 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 12.5%;
+  margin: 0;
   width: 100%;
   overflow: hidden;
 }
@@ -118,10 +118,10 @@ section[role="overview"] {
 div.masthead {
   display: block;
   width: 100%;
-  padding: 0 10%;
+  padding: 0 5%;
 }
 
-.mast {
+.mast {5
   font-weight: bold;
   display: block;
   float: left;
@@ -242,6 +242,20 @@ section[role="work"] {
   display: table;
   width: 100%;
   height: 100%;
+}
+
+section[role="insta"] {
+  background: #fff;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.iframe {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .grid-cont {
@@ -567,19 +581,8 @@ a.det-link {
   }
 
   header.site-header {
-    background: #fff;
     padding: 10px 5vw;
     top: 0;
     mix-blend-mode: normal;
-  }
-
-  .iframe {
-    display: block;       /* iframes are inline by default */
-    background: #fff;
-    border: none;         /* Reset default border */
-    height: 100vh;        /* Viewport-relative units */
-    max-width: 100%;
-    padding: 0;
-    margin-bottom: 10vh;
   }
 }
